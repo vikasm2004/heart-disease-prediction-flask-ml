@@ -77,61 +77,11 @@ These metrics ensure the reliability and robustness of the classification model.
 
 ---
 
-## 🛠️ Technologies Used
-- Python
-- Flask
-- Pandas
-- Scikit-learn
-- K-Nearest Neighbors (KNN)
-- HTML/CSS
-
----
-heart-disease-prediction-flask-ml/
-│
-├── app.py
-│   # Main Flask application and prediction logic
-│
-├── heart_final.csv
-│   # Dataset used for training the model
-│
-├── requirements.txt
-│   # Python dependencies
-│
-├── README.md
-│   # Project documentation
-│
-├── templates/
-│   └── webpage.html
-│       # Frontend HTML form for user input and results
-│
-├── static/
-│   ├── css/
-│   │   └── style.css
-│   │       # Styling for the web interface
-│   └── images/
-│       └── app_screenshot.png
-│           # Screenshot for README (optional but recommended)
-│
-├── model/
-│   ├── knn_model.pkl
-│   │   # Trained KNN model
-│   └── scaler.pkl
-│       # Saved MinMaxScaler for consistent inference
-│
-├── notebooks/
-│   └── knn_model_training.ipynb
-│       # EDA, feature selection, and cross-validation
-│
-├── utils/
-│   └── preprocessing.py
-│       # Data preprocessing and helper functions
-│
-└── .gitignore
-    # Files and folders to ignore in Git
-
-
-## ▶️ How to Run the Project Locally
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/heart-disease-prediction-flask-ml.git
+## 📁 Project Structure
+- heart-disease-prediction-flask-ml/
+- │
+- ├── app.py # Flask application
+- ├── heart_final.csv # Dataset
+- ├── templates/
+- │ └── webpage.html # Frontend HTML page
+- └── README.md # Project documentation
